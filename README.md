@@ -69,7 +69,7 @@ A small emulator window should pop up and show the agent randomly playing a game
 ---
 ## Preparing custom game files
 
-After the dependencies have been installed you are free to play any game already supported by the library. However there is also the possibility of adding your own custom supported games to the library itself. This section will walk you through installing your own custom game via an example installation of **StreetFighterIISpecialChampionEdition-Genesis**. The game files for a custom game need to be copied into the actual game data files inside the installation of the retro library on your local machine. This location can be found by running the following lines in the command line:  
+After the dependencies have been installed you are free to play any game already supported by the library. However there is also the possibility of adding your own custom supported games to the library itself. The game files for a custom game need to be copied into the actual game data files inside the installation of the retro library on your local machine. This location can be found by running the following lines in the command line:  
 
 `python3`  
 `import retro`  
@@ -137,7 +137,7 @@ https://www.retroarch.com/?page=platforms
 
 ### Preparing the Cores
 
-Retroarch needs a core of the architecture it is trying to simulate. The Street Fighter ROM we are working with is for the Sega Genisis. Retro actually has a built in core that can be copy and pasted into Retroarchs core folder and this is their recommended installation method. However finding the retroarch installation folder can be difficult and so can finding the cores in the Retro library. Instead open up Retroarch and go into Load Core. Inside Load Core scroll down and select download core. Scroll way down until you see genesis_plus_gx_libretro.so.zip and install it. Now go back to the main menu and select Load Content. Navigate to the Street Fighter folder at the top level of the repo and load the rom.md file. From here the game should load up correctly.
+Retroarch needs a core of the architecture it is trying to simulate. Retro actually has a built in cores that can be copy and pasted into Retroarchs core folder and this is their recommended installation method. However finding the retroarch installation folder can be difficult and so can finding the cores in the Retro library. Instead open up Retroarch and go into Load Core. Inside Load Core scroll down and select download core. Scroll way down until you see genesis_plus_gx_libretro.so.zip and install it. Now go back to the main menu and select Load Content. Navigate to the stable directory containing the game folders in the retro installation path and load the rom inside the specific game fodler you want to play.
 
 ### Saving states
 
